@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 180px;
+    background-color: #dcdcdc;
+}
+
+
+.header_logo_and_numbers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.menu {
+ 
+ background-color: #777777;
+  height: 80px;
+  width: 100%;
+  padding-left: 0;
+  margin: 0; 
+  
+ 
+}
+.test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.test li {
+    margin-right: 20px;
+    list-style: none;
+    color: aliceblue;
+    font-size: 22px;
+    margin-top: 15px;
+    cursor: pointer; 
+}
+.test li:hover {
+  text-decoration: underline;
+}
+
+.container_content {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+.container footer-cont {
+    width: 1400px;
+    height: 220px;
+    background-color: #777777;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:20px;
+    flex-direction: row-reverse;
+}
+
+
+.third_block_left_side{
+    background-color: #777777;
+    width: 1400px;
+    height: 460px; 
+    background-color: #777777;
+    color: white;
+    padding:10px 15px 20px;
+    margin-bottom: 20px; }
+    
+    .leftside span {
+      float: right;
+      text-decoration: underline; }
+
+.third_block_right_side {
+    font-family: 'PT Sans';
+    font-size: 14px;
+   line-height: 22px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #767676;
+    margin-left: 50px;
+    /* width: 60%; */
+    margin-bottom: 20vh;
+    padding-bottom: 40px;
+    color: #767676; 
+}
+
+
+.two_blocks {
+  display: flex;
+  padding-top: 20px;
+}
+
+.third_block {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+footer {
+width: 100%;
+  min-height: fit-content;
+  margin-top: auto;
+  margin-bottom: 0;
+  background-color: #777777;
+  color: #d4d4d4; }
+
+  .cont {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px 10px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  
+  .fcenter ul {
+    margin-top: 0; }
+  
+  .fcenter li {
+    list-style-type: none;
+    text-decoration: underline; }
+  
+  .fright {
+    width: 220px; }
+    .fright img {
+      float: left;
+      margin-right: 10px; }
+
+
+      .test li {
+        border-right: 2px solid white;
+        padding-right: 10px;
+
+      }
+
+      .test {
+        padding: top 30px;;
+      }
+       
+     .logo-site {
+
+      width: 1248px;
+      height: 462px;
+     
+    }
+    .telephone  {
+      width: 650px;
+    }
+
+    .telephone h4 {
+      font-family: 'Open Sans Condensed';
+      font-size: 40px;
+      line-height: 46px;
+      font-weight: 300;
+      letter-spacing: 0.025em;
+      color: #767676;
+    }
+.testi dt  {
+  font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+  .third_block_left_side h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 38px; }
+  .dl {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0; }
+    .third_block_left_side dl dt {
+      font-style: italic; }
+    .third_block_left_side dl dd {
+      margin: 0;
+      padding-bottom: 30px; }
+  .third_block_left_side p {
+    margin: 0;
+    padding-bottom: 100px;
+    text-align: right;
+    text-decoration: underline; }
+
+    .slider {
+      width: 90%;
+      height: 393px;
+      margin-bottom: auto;
+      display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center; 
+    }
+    .slider-block {
+      background-position: center;
+      margin: 0px;
+      height: 300px;
+      margin: 0px 80px 0px 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 940px;
+    
+     }
+      
